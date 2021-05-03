@@ -41,7 +41,8 @@ public class Main {
 		  System.out.println("Wrong button");
 		  break;
 	  }
-	  useFactory(factory);
+	  if (factory!=null)
+	  	useFactory(factory);
 	} catch (IOException e) {
 	  e.printStackTrace();
 	}
