@@ -23,7 +23,7 @@ public class Main {
   
     WildFactory factory = null;
 	  
-	System.out.println("What do you want to create?\n 1 - forest\n 2 - sand\n 3 - Swamp");
+	System.out.println("What do you want to create?\n 1 - forest\n 2 - sand\n 3 - swamp");
 	
 	try {
 	  char symbol = (char) System.in.read();
